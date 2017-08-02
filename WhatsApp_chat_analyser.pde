@@ -27,7 +27,7 @@ String messageLine = ""; //the whole line of one message (used because some mess
 int colorIndexCounter = 0; //what index new colors are added to in the nameColors array
 int selectedMessage = -1; //what message is currently selected
 //constants(/settings)
-String dataFileName = "chat class.txt"; //the file name for path of the chat file (must be in the whatsapp-on-iphone-chat-sent-by-email format)
+String dataFileName = "input.txt"; //the file name for path of the chat file (must be in the whatsapp-on-iphone-chat-sent-by-email format)
 String lineStartPattern = "\\d\\d.\\d\\d.\\d\\d \\d\\d:\\d\\d:\\d\\d: "; //the regex for matching dates
 String dateFormatString = "dd.MM.yy HH:mm:ss"; //the format of the date used
 color backgroundColor = color(255); //color of the background
