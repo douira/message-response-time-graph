@@ -268,7 +268,7 @@ void draw() {
     //draw text if after first
     if (y < 0) {
       //draw text with additional label
-      text("10^" + ceil(y / (axisScaling * labelIntervall)) + " sec." + additLabels[constrain(abs(ceil(y / (axisScaling * labelIntervall)) + 1), 0, additLabels.length - 1)], - hintLineLength, y);
+      text("10^" + ceil(abs(y) / (axisScaling * labelIntervall)) + " sec." + additLabels[constrain(abs(ceil(y / (axisScaling * labelIntervall)) + 1), 0, additLabels.length - 1)], - hintLineLength, y);
     } //first label
     else {
       //draw text with "0 sec."
